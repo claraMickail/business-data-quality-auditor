@@ -20,3 +20,8 @@ reports/*.xlsx
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Original datasets
+data/*.xlsx
+data/*.xls
+data/*.csv
