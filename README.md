@@ -207,16 +207,15 @@ python -m pytest tests/test_validation.py -v
 
 ## Dataset
 
-**Online Retail II — UCI Machine Learning Repository**
+This project uses the [Online Retail II dataset](https://archive.ics.uci.edu/dataset/502/online+retail+ii) from the UCI Machine Learning Repository, containing 1,067,371 retail transaction records.
 
-- Source: https://archive.ics.uci.edu/dataset/502/online+retail+ii
-- Citation: Chen, D. (2012). *Online Retail II* [Dataset]. UCI Machine Learning Repository.
-- DOI: https://doi.org/10.24432/C5CG6D
-- License: CC BY 4.0
+The original dataset is not included in this repository to minimize unnecessary redistribution of customer identifiers.
 
-The dataset contains transactional records from a UK-based online retailer between December 2009 and December 2011.
+To reproduce the analysis, download `online_retail_II.xlsx` from UCI and place it in the `data/` folder.
 
-The original dataset is publicly available from UCI. Customer identifiers in the source data are treated as potentially identifying information during privacy auditing.
+Citation: Chen, D. (2012). Online Retail II. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 ## Limitations
 
